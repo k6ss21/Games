@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Background
+  - 
+  - collider
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 2775176473
+    locked: 0
+  - name: ExtraForeGround
+    uniqueID: 367751125
+    locked: 0
+  - name: ForeGround
+    uniqueID: 1763042447
+    locked: 0
+  - name: moreExtrafore
+    uniqueID: 68575517
+    locked: 0
+  - name: player
+    uniqueID: 2215448239
+    locked: 0
