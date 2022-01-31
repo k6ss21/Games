@@ -1,0 +1,54 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerPrefsController : MonoBehaviour
+{
+    const string MASTER_VOLUME_KEY = "Volume";
+    const string DIFFICULTY_KEY = "Difficulty";
+
+
+    const float MIN_VOLUME = 0f;
+    const float MAX_VOLUME = 1f;
+
+
+    const float MIN_DIFFICULTY = 1f;
+    const float MAX_DIFFICULTY = 5f;
+
+    public static void SetMasterVolume(float volume)
+    {
+        if(volume >=MIN_VOLUME && volume <= MAX_VOLUME)
+        {
+           // Debug.Log("Volume" + volume);
+            PlayerPrefs.SetFloat(MASTER_VOLUME_KEY, volume);
+        }
+        else
+        {
+            Debug.LogError("Out of Range");
+        }
+        
+    }
+
+    public static void SetDifficulty(float difflevel)
+    {
+        if (difflevel >= MIN_DIFFICULTY && difflevel <= MAX_DIFFICULTY)
+        {
+            PlayerPrefs.SetFloat(DIFFICULTY_KEY, difflevel);
+        }
+        else
+        {
+            Debug.LogError("error");
+        }
+    }
+
+    public static float GetMasterVolume()
+    {
+        return PlayerPrefs.GetFloat(MASTER_VOLUME_KEY);
+    }
+    public static float GetDifficulty()
+    {
+        return PlayerPrefs.GetFloat(DIFFICULTY_KEY);
+    }
+
+
+}
