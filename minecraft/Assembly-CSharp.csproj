@@ -36,8 +36,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\VoxelData.cs" />
      <Compile Include="Assets\Scripts\Chunk.cs" />
+     <Compile Include="Assets\Scripts\VoxelData.cs" />
+     <Compile Include="Assets\Scripts\World.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -606,34 +607,34 @@
         <HintPath>C:\Program Files\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>G:\GAME\projects\minecraft\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>G:\GAME\projects\Games\minecraft\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>G:\GAME\projects\minecraft\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>G:\GAME\projects\Games\minecraft\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>G:\GAME\projects\minecraft\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>G:\GAME\projects\Games\minecraft\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>G:\GAME\projects\minecraft\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>G:\GAME\projects\Games\minecraft\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>G:\GAME\projects\minecraft\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>G:\GAME\projects\Games\minecraft\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>G:\GAME\projects\minecraft\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>G:\GAME\projects\Games\minecraft\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>G:\GAME\projects\minecraft\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>G:\GAME\projects\Games\minecraft\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>G:\GAME\projects\minecraft\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>G:\GAME\projects\Games\minecraft\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>G:\GAME\projects\minecraft\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>G:\GAME\projects\Games\minecraft\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>G:\GAME\projects\minecraft\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>G:\GAME\projects\Games\minecraft\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
